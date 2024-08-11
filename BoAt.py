@@ -4,7 +4,7 @@ import pickle
 from PIL import Image
 import io
 
-model = pickle.load(open(r"C:\Users\Ashfaq Khan\283-Batch\Machine Learning Nagaraju sir\BoAt_Nirvana.pkl", "rb"))
+model = pickle.load(open(r"BoAt_Nirvana.pkl", "rb"))
 
 st.image('innomatics_research_labs_logo.png')
 st.image('nirvana_ion_image1.jpg')
